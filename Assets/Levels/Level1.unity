@@ -4093,7 +4093,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f80f9d8d83c5ea64d9b144cd2ed2e999, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4617,7 +4617,7 @@ GameObject:
   - component: {fileID: 705719571}
   m_Layer: 0
   m_Name: Wall-Right
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7774,7 +7774,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.630092, y: -6.021369}
+  m_Offset: {x: 1.6378816, y: -6.021369}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7784,7 +7784,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.6283677, y: 0.22352219}
+  m_Size: {x: 3.5037339, y: 0.22352219}
   m_EdgeRadius: 0
 --- !u!1 &1291122146
 GameObject:
@@ -9757,7 +9757,7 @@ GameObject:
   - component: {fileID: 1589498814}
   m_Layer: 0
   m_Name: Wall-Left
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
