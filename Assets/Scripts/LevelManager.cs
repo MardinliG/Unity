@@ -27,6 +27,6 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Niveau terminé !");
         // Charger la prochaine scène ou afficher un écran de fin
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadSceneAsync(0);
     }
 } 
