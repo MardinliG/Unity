@@ -722,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UIpanels_0: -1394638295969187431
+      UIpanels_1: -7322306361148128998
+      UIpanels_10: 1998322610453995142
+      UIpanels_11: -3487862678289120229
+      UIpanels_12: -8655974506434964773
+      UIpanels_13: 1610462573115267736
+      UIpanels_14: -8599265860240357028
+      UIpanels_15: 5353828764713441702
+      UIpanels_16: -8940999122893714272
+      UIpanels_17: -4643484207890805621
+      UIpanels_18: 3833326242656417068
+      UIpanels_19: 6914403784983176641
+      UIpanels_2: -4363277666431823117
+      UIpanels_20: 6123339654166733123
+      UIpanels_21: 5559882217041383693
+      UIpanels_22: 2068296143243298906
+      UIpanels_23: 6400479376842384713
+      UIpanels_3: -8681061195781026668
+      UIpanels_4: 2126890663543360870
+      UIpanels_5: 7670570303187342688
+      UIpanels_6: 2224019075739150546
+      UIpanels_7: 4681778767418566205
+      UIpanels_8: -835861818595794811
+      UIpanels_9: 5180958780894780825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
