@@ -16,7 +16,31 @@ EditorBuildSettings:
     guid: 85cc95dc9f7b726439effa56d2302794
   - enabled: 1
     path: Assets/Levels/Level3.unity
+    guid: 336bdceb1ad72b3419a25b59631dc9e0
+  - enabled: 1
+    path: Assets/Levels/Level4.unity
     guid: 86cab598cb555f04d9018669b03227f6
+  - enabled: 1
+    path: Assets/Levels/Level5.unity
+    guid: a94ac13fee4a96742841e7cd573f9a48
+  - enabled: 1
+    path: Assets/Levels/Level6.unity
+    guid: 65696dfad7720ab498aa40e236f1e187
+  - enabled: 1
+    path: Assets/Levels/Level7.unity
+    guid: 5e56118efc1bb0741adc96cdff7e242a
+  - enabled: 1
+    path: Assets/Levels/Level8.unity
+    guid: 79ca67e4cb759984e83dc412db4a9f3c
+  - enabled: 1
+    path: Assets/Levels/Level9.unity
+    guid: 56eee21d0c594e243a43a3c635f9bbc1
+  - enabled: 1
+    path: Assets/Levels/Level10.unity
+    guid: aeb1826a13004a84cbe97ca5db2d530a
+  - enabled: 1
+    path: Assets/Levels/Level11.unity
+    guid: f1ed56d6b839a924aa650892d67650d9
   - enabled: 1
     path: Assets/Levels/Victory.unity
     guid: 4998e7c725c43c14b85866d3513f0f31
