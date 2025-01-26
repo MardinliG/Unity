@@ -2950,7 +2950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbaf40a1cef68ac45aa546847378043a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 1
+  attackCooldown: 0.2
   firePoint: {fileID: 10895763}
   bullet:
   - {fileID: 1453446436}
