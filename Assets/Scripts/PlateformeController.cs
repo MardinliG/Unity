@@ -28,28 +28,4 @@ public class PlateformeController : MonoBehaviour
         // Déplace la plateforme vers la position cible
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            // Sauvegarde l'échelle d'origine du joueur
-            originalPlayerScale = collision.transform.localScale;
-
-            // Définit la plateforme comme parent du joueur
-            collision.transform.SetParent(this.transform);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            // Supprime la relation parent-enfant
-            collision.transform.SetParent(null);
-
-            // Restaure l'échelle d'origine du joueur
-            collision.transform.localScale = originalPlayerScale;
-        }
-    }
 }
