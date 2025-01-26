@@ -60,6 +60,6 @@ public class LevelManager : MonoBehaviour
         Debug.Log("Temps écoulé ! Vous avez perdu.");
         // Gérer la fin du jeu (recommencer la scène ou autre logique de perte)
         // Exemple: Recommencer la scène actuelle
-        SceneManager.LoadSceneAsync(4);
+        SceneManager.LoadSceneAsync(5);
     }
 }

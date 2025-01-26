@@ -78,7 +78,7 @@ public class EnemyMovement : MonoBehaviour
         // Load GameOver scene if the enemy touches the player
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadSceneAsync(4);
+            SceneManager.LoadSceneAsync(5);
         }
     }
 
