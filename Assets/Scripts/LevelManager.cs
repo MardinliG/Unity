@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro; // Import nécessaire pour TextMeshPro
 
 public class LevelManager : MonoBehaviour
 {
@@ -9,10 +10,12 @@ public class LevelManager : MonoBehaviour
     private int collectedOrbs = 0;
 
     [SerializeField] private Timer timer; // Référence au script Timer
+    [SerializeField] private TMP_Text orbCounterText; // Référence au texte TextMeshPro
 
     private void Awake()
     {
         Instance = this; // Singleton
+        UpdateOrbCounter(); // Initialiser le texte au début
     }
 
     private void Update()
@@ -29,11 +32,20 @@ public class LevelManager : MonoBehaviour
         collectedOrbs++;
         Debug.Log($"Orbes collectées : {collectedOrbs}/{totalOrbs}");
 
+        // Mettre à jour l'affichage
+        UpdateOrbCounter();
+
         // Si toutes les orbes sont collectées avant la fin du temps
         if (collectedOrbs >= totalOrbs)
         {
             LevelComplete();
         }
+    }
+
+    private void UpdateOrbCounter()
+    {
+        // Mettre à jour le texte TextMeshPro avec le nombre d'orbes collectées
+        orbCounterText.text = $"Orbes : {collectedOrbs}/{totalOrbs}";
     }
 
     private void LevelComplete()
