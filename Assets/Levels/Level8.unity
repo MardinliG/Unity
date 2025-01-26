@@ -1473,7 +1473,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level 1
+  m_text: Level 8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5906,7 +5906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousRoom: {fileID: 1294288514}
   nextRoom: {fileID: 758830404}
-  cam: {fileID: 0}
+  cam: {fileID: 519420033}
 --- !u!61 &795247191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7070,7 +7070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousRoom: {fileID: 758830404}
   nextRoom: {fileID: 1753931810}
-  cam: {fileID: 0}
+  cam: {fileID: 519420033}
 --- !u!61 &933541368
 BoxCollider2D:
   m_ObjectHideFlags: 0
